@@ -9,7 +9,7 @@ Technologies Used:
 
 * Postgresql
 
-Configuration
+##Configuration
 Database creation: run ```rails db:create```, then ```rails db:migrate``` in terminal to create and migrate the database
 
 Server: run ```rails s``` to run the server
