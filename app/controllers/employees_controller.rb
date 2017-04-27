@@ -8,7 +8,7 @@ class EmployeesController < ApplicationController
   end
 
   def create
-    @employee = Employee.create(user_params)
+    @employee = Employee.create(employee_params)
     redirect_to root_path
   end
 
@@ -20,7 +20,7 @@ class EmployeesController < ApplicationController
 
   private
 
-  def user_params
-    params.require(:user).permit(:title, :first_name, :last_name)
+  def employee_params
+    params.require(:employee).permit(:title, :first_name, :last_name)
   end
 end

@@ -1,0 +1,16 @@
+Add Employee
+<hr>
+
+<%= form_for @employee do |f| %>
+  <div>
+    <%= f.text_field :title, placeholder: "Title" %>
+  </div>
+  <div>
+    <%= f.text_field :first_name, placeholder: "First Name" %>
+  </div>
+  <div>
+    <%= f.text_field :last_name, placeholder: "Last Name" %>
+  </div>
+  
+  <%= f.submit "Add Employee" %>
+<% end %>
