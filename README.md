@@ -1,24 +1,15 @@
-# README
+# Family Friday
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Objective: Automate the process of assigning employees to groups for lunch on Family Friday.
 
-Things you may want to cover:
+Solution: An application that allows people to enter employee names, and automatically assign them to a lunch group (minimum of 3 people, maximum of 5 people in each group)
 
-* Ruby version
+Technologies Used:
+* Ruby on Rails
 
-* System dependencies
+* Postgresql
 
-* Configuration
+Configuration
+Database creation: run ```rails db:create```, then ```rails db:migrate``` in terminal to create and migrate the database
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Server: run ```rails s``` to run the server
